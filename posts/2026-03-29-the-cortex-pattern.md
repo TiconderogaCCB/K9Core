@@ -1,4 +1,4 @@
-# The Cortex Pattern: How We Gave an AI a Persistent Memory That Goes Wherever We Go
+# The K9Core Pattern: How We Gave an AI a Persistent Memory That Goes Wherever We Go
 
 *By Caleb Bissett — Published 2026-03-29*
 

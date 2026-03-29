@@ -1,8 +1,12 @@
-# cortex
+# K9Core
 
-**A structured memory system for AI-assisted development.**
+**A structured memory system for human-AI collaboration.**
 
-Give your AI a persistent, queryable memory that travels with you. Allowing your work and development to compound over time. An element that you can connect and disconnect from any AI assistant, project, platform, or employer.
+Give your AI a persistent, queryable memory that travels with you — allowing your work and thinking to compound over time rather than reset with every session.
+
+---
+
+> *The name comes from the relationship between a person and a working dog. Two fundamentally different kinds of minds, operating across a communication gap neither can fully close, developing over time an understanding that becomes ingrained and intertwined. The dog reads you better than most humans do. You trust signals you can't fully explain. Neither species completely understands the other — but the working relationship, built through repeated contact and accumulated trust, becomes something neither could achieve alone. That's what this is.*
 
 ---
 
@@ -12,7 +16,7 @@ As my knowledge about the tools and AI grew, naturally so did the complexity of 
 
 It's a way to track my own personal growth with the technology, and to record the relationship over time between AI and the user. When you work with AI on real world builds every session starts from zero. The AI doesn't remember the 6 hours you spent developing the perfect schema and the architectural decisions you made for good reasons, or the convention you've established over months of real work.
 
-The cortex pattern is a structured directory of plain Markdown files that gives an AI persistent, semantic memory across sessions. It's organized by knowledge type, queryable by meaning rather than keyword, and designed to travel with the person, not the project.
+K9Core is a structured directory of plain Markdown files that gives an AI persistent, semantic memory across sessions. It's organized by knowledge type, queryable by meaning rather than keyword, and designed to travel with the person, not the project.
 
 This repo contains the framework, the structure, the tooling, and the patterns. The content is yours to write.
 
@@ -21,7 +25,7 @@ This repo contains the framework, the structure, the tooling, and the patterns. 
 ## Structure
 
 ```text
-cortex/
+k9core/
 ├── tkb/                    # Technical Knowledge Base
 │   ├── semantic.md         # Naming conventions, data patterns, type decisions
 │   ├── procedural.md       # Step-by-step workflows that have been proven to work
@@ -55,19 +59,19 @@ These layers are independent. You can run just TKB. You can add CKB later. PEB i
 
 ## The Bootstrap Pattern
 
-The cortex is only as useful as what loads at session start. The bootstrap is a curated summary of the highest-signal content - recent session logs, open decisions, active pitfalls - delivered in a format the AI can use immediately.
+K9Core is only as useful as what loads at session start. The bootstrap is a curated summary of the highest-signal content - recent session logs, open decisions, active pitfalls - delivered in a format the AI can use immediately.
 
 ```text
 Session start → bootstrap → AI has context → work begins informed
 ```
 
-The bootstrap is not the entire cortex. It's the right 5-10% for right now.
+The bootstrap is not the entire core. It's the right 5-10% for right now.
 
 ---
 
 ## Querying
 
-Cortex files are indexed as embeddings. Queries are semantic:
+K9Core files are indexed as embeddings. Queries are semantic:
 
 ```text
 "What's the established pattern for handling X?"
@@ -83,7 +87,7 @@ The MCP server handles indexing, querying, and session logging. See [setup](#set
 
 ## Setup
 
-> *Coming: MCP server setup, embedding configuration, and cortex bootstrap tooling.*
+> *Coming: MCP server setup, embedding configuration, and bootstrap tooling.*
 
 Manual bootstrap (no MCP server):
 
@@ -97,7 +101,7 @@ This works. It's manual. The MCP layer automates it.
 
 ## Writing Conventions
 
-The cortex is worth maintaining only if the entries are worth reading. A few principles that matter more than any template:
+K9Core is worth maintaining only if the entries are worth reading. A few principles that matter more than any template:
 
 **Write with evidence, not aspiration.** "I am good at X" is noise. "We decided against X because of Y, and here's what that cost us" is signal.
 
@@ -111,7 +115,7 @@ The cortex is worth maintaining only if the entries are worth reading. A few pri
 
 ## The Portability Principle
 
-The cortex belongs to its author, not to any project or employer.
+K9Core belongs to its author, not to any project or employer.
 
 The TKB for a specific project is project-specific and stays with the project. But the CKB and PEB travel with the person. When you change jobs, take on a new project, or start fresh, your cognitive base and personal layer come with you.
 
@@ -126,7 +130,7 @@ Key management for sensitive personal content (PEB) should live in a portable ze
 - Not a prompt engineering toolkit
 - Not a product you deploy for a team
 
-It's a personal infrastructure pattern. One person, one cortex, maintained over time. The value is cumulative and individual.
+It's a personal infrastructure pattern. One person, one core, maintained over time. The value is cumulative and individual.
 
 ---
 
@@ -143,7 +147,7 @@ If you have improvements to the framework structure, tooling, or conventions, op
 MIT for code and framework structure.
 CC BY 4.0 for documentation and written conventions.
 
-You own your cortex content entirely. This license covers the framework itself.
+You own your K9Core content entirely. This license covers the framework itself.
 
 ---
 
