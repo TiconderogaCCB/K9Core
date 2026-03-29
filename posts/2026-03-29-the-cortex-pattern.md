@@ -1,6 +1,6 @@
 # The Cortex Pattern: How We Gave an AI a Persistent Memory That Goes Wherever We Go
 
-*Published 2026-03-29*
+*By Caleb Bissett — Published 2026-03-29*
 
 ---
 
