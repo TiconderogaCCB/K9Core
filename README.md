@@ -2,11 +2,13 @@
 
 **A structured memory system for human-AI collaboration.**
 
-Give your AI a persistent, queryable memory that travels with you — allowing your work and thinking to compound over time rather than reset with every session.
+Give your AI a persistent, queryable memory that travels with you, allowing your work and thinking to compound over time rather than reset with every session.
 
 ---
 
-> *The name comes from the relationship between a person and a working dog. Two fundamentally different kinds of minds, operating across a communication gap neither can fully close, developing over time an understanding that becomes ingrained and intertwined. The dog reads you better than most humans do. You trust signals you can't fully explain. Neither species completely understands the other — but the working relationship, built through repeated contact and accumulated trust, becomes something neither could achieve alone. That's what this is.*
+> *The name comes from the relationship between a person and a working dog. Two fundamentally different kinds of minds, operating across a communication gap neither can fully close, developing over time an understanding that becomes ingrained and intertwined. The dog reads you better than most humans do. You trust signals you can't fully explain. Neither species completely understands the other, but the working relationship, built through repeated contact and accumulated trust, becomes something neither could achieve alone. That's what this is.*
+
+NOTE: My page notes are a mixture of my words and my coding agent's. For instance, I was the corn-dog that came up with the canine metaphor, but the agent made the cream corn. 
 
 ---
 
