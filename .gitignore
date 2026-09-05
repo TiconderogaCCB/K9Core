@@ -1,0 +1,16 @@
+
+# ── Contamination-wall guard (added 2026-09-05) ──────────────────────────────
+# This is the PUBLIC K9Core repo. The cortex's cognitive layer (CKB) and the
+# Personal Evidence Bank (PEB) hold private material and ModernCrete confidential
+# data (bid numbers, unit rates, client/project names). They must NEVER be
+# published here. These patterns stop an accidental copy from being staged.
+# A deliberate `git add -f` still overrides this: the standing rule is that
+# CKB/PEB live in the PRIVATE CreteSync repo and encrypted backups only.
+ckb/
+**/ckb/
+peb/
+**/peb/
+journal.md
+session-summaries.md
+commits.md
+Session-Notes-*.md
